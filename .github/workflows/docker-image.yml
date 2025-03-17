@@ -33,7 +33,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push -t 17stomy/docker-graphql:0.0.2 .
+        docker push 17stomy/docker-graphql:0.0.2 .
 
 
       
